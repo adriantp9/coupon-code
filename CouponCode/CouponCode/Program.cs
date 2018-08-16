@@ -8,7 +8,7 @@ namespace CouponCode
         {
             var builder = new CouponCodeBuilder();
 
-            var code = builder.GenerateCode("JLR-", "XXXX-XXXX-XXXX");
+            var code = builder.GenerateCode("####-####-####", "ABC-");
 
             Console.WriteLine(code);
             Console.ReadLine();
